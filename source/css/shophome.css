@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Tohoma-Regular;
+    src: url(../lib/fonts/Tahoma.ttf);
+}
+* {margin: 0px; padding: 0px;}
+body { font-family: Tohoma-Regular;}
+a {text-decoration: none;}
+ul li { list-style-type: none;}
+.fl__left {float: left;}
+.fl__right {float: right;}
+.wr__inner {width: 1200px; margin: 0 auto;}
+.clear__fix {clear: both;}
+.text__transform {text-transform: uppercase;}
+/*Header*/
+header a{color: #fff;}
+.header__nav { background: #65829d; height: 40px; line-height: 40px; font-size: 12.45px;}
+.nav__menu__left >li, .nav__menu__right >li { display: inline-block; position: relative; text-align: center;width: 140px;}
+.nav__menu__right li .nav__submenu{display: none; position: absolute; background:#65829d; width: 140px;}
+.nav__menu__right li:hover .nav__submenu {display: block;}
+.nav__menu__left li:hover, .nav__menu__right li:hover { background: #fd5c48;}
+.header__content { height: 135px; line-height: 135px; font-size: 14.58px;}
+.header__content .nav__logo { width: 400px; height: 110px; padding-top: 25px; }
+.header__content .nav__search {width: 600px;}
+.header__content .nav__search input {width: 270px; padding: 10px;}
+.header__content .nav__search select {width: 155px; padding: 10px;  }
+.header__content .nav__search a {background: #fd5c48; padding: 8px 25px 11px;}
+.header__content .nav__shop a {background: #65829d; padding: 10px 15px;}
+.header__content .nav__shop .shop__empty { background: #85b4e0; padding: 10px 40px;}
+.header__menu { background: #65829d; height: 50px; line-height: 50px;}
+.header__menu .main__menu li {float: left; width: 98px; text-align: center; border-right: 1px solid #7899b8;}
+.header__menu .main__menu li:last-child { border-right: none;}
+.header__menu .main__menu li:hover {background: #fd5c48;}
+		/*Section__header*/
+/*article__header*/
+.article__header { margin: 25px 0; height: 470px;}
+.article__header__left {width: 300px; font-size: 14.58px; }
+.article__header__left >a {background: #fd5c48; padding: 5px 87px 10px 10px; font-size: 21.67px; color: #fff;}
+.header__left__menu a, .header__left__menu i {color: #b7b7b7;}
+.article__header__left .header__left__menu {margin: 15px; padding: 0 15px;}
+.article__header__left .header__left__menu li, .article__header__left .header__left__menu i
+{height: 45px; line-height: 45px; border-bottom: 1px solid #b7b7b7; }
+.article__header__right {margin-left: 20px; position: relative; color: #faf2ed; }
+.article__header__right .row__left, .article__header__right .row__right {width: 205px; height: 445px;}
+.article__header__right .row__left img:last-child, .article__header__right .row__right img:last-child {margin-top: 7px;}
+.article__header__right .row__center {width: 430px; height: 445px; margin: 0 6px;}
+.row__left__bot img, .row__right__bot img {margin-top: 7px;}
+.row__left__top__color {position: absolute; top: 150px; padding-left: 5px; background: rgba(247, 61, 61, 0.46); font-size: 11.93px;}
+.row__left__bot__color {position: absolute; bottom: 40px; padding-left: 5px; background: rgba(255, 143, 0, 0.64); font-size: 12.8px;}
+.row__center__i6 p, .row__center__i76 p{text-align: center;}
+.row__center__i6 {position: absolute; bottom: 10px; left: 530px;}
+.row__center__i76 {position: absolute; bottom: 10px; left: 450px;}
+.row__center__color {position: absolute; bottom: 98px; padding-left: 5px; background: rgba(0, 159, 255, 0.38); font-size: 16px;}
+.row__right__top__color {position: absolute; top: 130px; padding-left: 5px; background: rgba(245, 97, 115, 0.7); font-size: 12.8px;}
+.row__right__bot__color {position: absolute; bottom: 40px; padding-left: 5px; background: rgba(248, 4, 140, 0.44); font-size: 12.8px;}
+/*article__products*/
+.article__products__img {margin-top: 7px;}
+.article__products >p {width: 200px}
+.article__products .article__products__img {width: 950px;}
+.products__content {margin: 25px 0; height: 500px;}
+.products__content__iphone { width: 300px; }
+.iphone__content {text-align: center; padding-right: 50px;}
+.iphone__content img {width: 275px; height: 360px;}
+.iphone__content p{margin-top: 10px; color: #777777; padding-left: 40px;}
+.iphone__content button { color: #777777; }
+.iphone__content a { background: #db4242; padding: 0 15px; color: #fff;}
+.iphone__content button { background: #fff; width: 170px; height: 40px; line-height: 40px;}
+/*article__fashion*/
+.article__fashion >p {width: 200px;}
+.article__fashion li { font-size: 12.1px; }
+.article__fashion {margin: 25px 0; height: 660px;}
+.fahsion__content {margin-top: 25px;}
+.fashion__menu {width: 150px; }
+.fashion__menu__top {height: 76px; line-height: 76px; border: 1px solid  #777777; border-bottom: none;}
+.fashion__menu__top img {padding: 29px 0 0 5px;}
+.fashion__menu__bot { border: 1px solid #777777; }
+.fashion__menu__bot .menu__bot__soeson1 {margin: 5px 10px;}
+.fashion__menu__bot .menu__bot__soeson1 li{margin-left: 10px;}
+.fashion__menu__bot .menu__bot__soeson1 p{margin: 5px 0;}
+.menu__bot__soeson1 .soeson1__heght {padding: 7px 0;}
+.fahsion__color {color: #fd5c48;}
+.fashion--color { color: #777777; }
+.fashion__right, .fashion__right button {color: #838383;}
+.fashion__right__left {position: relative;}
+.fashion__right__img1 {width: 400px; height: 610px;}
+.fashion__right__img2 {position: absolute; left: 2px; top:300px;}
+.fashion__right__img3 {position: absolute; left: 387px; top:300px;}
+.fashion__right__left .fashion__right__p { position: absolute; left: 2px; bottom: 4px; padding: 0px 158.5px; background: rgba(86, 136, 186, 0.34); color: #fff; height: 25px; line-height: 25px;}
+.fashion__right__center {width: 410px; margin: 0 5px;}
+.fashion__right__content {width: 200px; text-align: center; margin-top: 3px;}
+.fashion__right__content p {margin: 3px 0;}
+.fashion__right__center__top img { width: 410px; height: 302px; }
+.fashion__right__content .content__button {background: #fff; width: 107px; height: 27px;}
+.launcher__right {position: absolute; right: 0px; top: 1120px;}
+/*advertisement*/
+.advertisement {position: relative; color: #fff; height: 230px;}
+.advertisement img {width: 100%; height: auto;}
+.advertisement h1 {position: absolute; top: 50px; left: 270px; font-size: 50px;}
+.advertisement h3 {position: absolute; top: 68px; left: 400px; font-size: 30px;}
+.advertisement h4 {position: absolute; top: 113px; left: 415px; font-size: 20px;}
+.advertisement h2 {position: absolute; bottom: 40px; left: 420px; font-size: 40px}
+		/*section__nav*/
+/*article__top*/
+.article__electronics {margin-top: 25px;}
+.electronics__content {margin: 25px 0; height: 610px;}
+.electronics__content__left {width: 150px;}
+.content__left__top {text-align: center; height: 75px; line-height: 30px; border: 1px solid #777777; border-bottom: none;}
+.content__left__bot {border: 1px solid #777777;}
+.content__left__top p {margin: 5px 0 0 15px;}
+.content__left__top  img {margin-top: 25px;}
+.content__left__bot ul li {text-align: center;margin: 29.5px 0; font-size: 12.5px;}
+.electronics__right__p { position: absolute; left: 2px; bottom: 4px; padding: 0px 108px; background: rgba(252, 142, 126, 0.48); color: #fff; height: 25px; line-height: 25px;}
+.electronics__right__p2 { position: absolute; left: 2px; bottom: 4px; padding: 0px 119.71px; background: rgba(232, 183, 107, 0.81); color: #fff; height: 25px; line-height: 25px;}
+/*advertisement2*/
+.advertisement2 { margin: 25px 0; position: relative;}
+.advertisement2 img {width: 100%; height: auto;}
+.advertisement2 h1 {position: absolute; top: 85px; left: 598px; font-size: 60px; color: #fff;}
+.advertisement2 h3 {position: absolute; bottom: 85px; left: 840px; font-size: 25px; color: #fff}
+.advertisement2 p {position: absolute; bottom: 60px; right: 130px;}
+/*section__footer*/
+.section__footer__header {height: 110px;}
+.section__footer__header__left {display: inline-block; width: 395px; color: #959595;}
+.section__footer__content {color: #989898;}
+.fa-color {color: #000;}
+.section__footer__nav__content {margin: 25px 0;}
+.section__footer__nav__content img {display: inline-block; width: 190px;}
+.section__footer__content__left__rated { width: 350px; height: 100px; margin: 25px 0; }
+.section__footer__content__left__rated >div {padding-top: 20px;}
+.section__footer__content__left >img,.section__footer__content__right >img {width: 260px;}
+.section__footer__content__left, .section__footer__content__right {width: 400px;}
+.latest__news {margin-top: 70px;}
+.section__footer__content__left__rated .sale {margin-bottom: 15px;}
+.section__footer__content__left .news {margin-bottom: 30px;}
+.section__footer__content__left > img {padding: 0 0 5px 5px;}
+		/*footer*/
+/*footer__header*/
+.footer__header {background: #425c75; height: 110px; line-height: 110px;}
+.footer__header input { width: 600px; margin-left: 185px; padding: 20px 10px; }
+.footer__header button { background: #fd5c48; color: #fff; border: none; width: 170px; height: 60px; line-height: 60px; margin-left: 10px;}
+.footer__content {background: #65829d; color: #fff; overflow: hidden; padding-bottom: 25px;}
+/*footer__content*/
+.footer_content__row {float: left; width: 300px;}
+.row__bottom {border-bottom: 1px dotted #fff; width: 250px; height: 35px;}
+.footer_content__row >div { margin-top: 15px; height: 131px;}
+.footer_content__right {width: 250px;}
+.footer_content__right >div {margin-top: 17px;}
+.fa-envelope:before , .fa-phone:before {font-size: 35px;}
+.content__phone {border-bottom: 1px solid; height: 60px; width: 230px;}
+.content__phone >div p {margin-left: 45px;}
+.content__envelope >p { padding: 10px 0 0 60px; }
+.content__envelope {border-bottom: 1px solid; height: 60px; width: 230px;}
+/*footer__end*/
+.footer__end {background: #425c75; color: #fff; height: 35px; line-height: 35px; text-align: center;}
+.fa-arrow {position: relative;}
+.fa-arrow img { position: absolute; bottom: 67px; right: 15px; background: #fff; padding: 10px 6px; border: 3px solid #a1a1a1;}
